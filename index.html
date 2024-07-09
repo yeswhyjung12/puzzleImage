@@ -212,6 +212,11 @@
             margin: 30px auto;
         }
 
+        /* .kakao_adbanner{
+            width: 320px;
+            margin: 0 auto;
+        } */
+
         /* 모바일 대응 */
         @media only screen and (max-width: 768px) {
 
@@ -314,6 +319,10 @@
             .tbox {
                 font-size: 15px;
             }
+
+            .kakao_adbanner {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -349,7 +358,7 @@
         <button class="save-button" onclick="saveImage()">퍼즐 이미지 저장</button>
     </div>
 
-    <button class="convertbut"  onclick="location.href='https://girinsplit.netlify.app/'">이미지 분할하기 페이지로 이동</button>
+    <button class="convertbut" onclick="location.href='https://girinsplit.netlify.app/'">이미지 분할하기 페이지로 이동</button>
 
     <div class="exampleBox">
         <h3>예시 이미지를 참고해 주세요</h3>
@@ -392,7 +401,7 @@
         <div class="tbox">
             이용방법
             <br>
-            1)이미지 올리기  2)가로, 세로 퍼즐 조각의 수 정하기 3)change 버튼 누르기 4)저장하기
+            1)이미지 올리기 2)가로, 세로 퍼즐 조각의 수 정하기 3)change 버튼 누르기 4)저장하기
             <br>
             <br>
             ✔️ 이미지 드래그 앤 드롭 영역을 클릭하여 이미지 파일을 업로드합니다.
@@ -410,8 +419,13 @@
 
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
-    <script src="puzzle.js"></script>
+    <div class="kakao_adbanner">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+        <script src="puzzle.js"></script>
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-abGKP3uQJAiD5PST" data-ad-width="320"
+            data-ad-height="100"></ins>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </div>
 </body>
 
 </html>
