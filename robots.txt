@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://girinpuzzle.netlify.app/sitemap.xml
